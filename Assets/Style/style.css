@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@font-face {
+  font-family: "Streamter";
+  src: url("../Font/Streamster.ttf");
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column1 {
+  flex: 45%;
+}
+
+.column2 {
+  flex: 10%;
+}
+
+.column3 {
+  flex: 30%;
+}
+
+.column4 {
+  flex: 5%;
+}
+
+.column5 {
+  flex: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column6 {
+  flex: 20%;
+}
+
+.column1-content {
+  text-align: left;
+  margin-top: 50px;
+}
+
+p {
+  color: #eee;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+}
+
+li {
+  color: #eee;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 800;
+}
+
+.glitch1 {
+  color: #eee;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 2px 0px 2px rgba(255, 0, 255, 0.5), -2px 0px 2px rgba(0, 255, 191, 0.5), 0px 0px 10px rgba(49, 122, 255, 1);
+}
+
+.glitch2 {
+  color: #994fe2;
+  font-size: 24px;
+  font-weight: 200;
+  font-style: italic;
+  text-shadow: 2px 0px 2px rgba(255, 0, 255, 0.5), -2px 0px 2px rgba(0, 255, 191, 0.5), 0px 0px 10px rgba(49, 122, 255, 1);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  width: 220px;
+  height: 54px;
+  border-radius: 7px;
+  border: 2px solid #eee;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.button:hover {
+  border: 2px solid #eee;
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* HEADER */
+header {
+  height: 100vh;
+  background: url("../Image/Synthwave.81.jpg") rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+header .container {
+  width: 1200px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+header .container h1 {
+  color: #eee;
+  font-size: 56px;
+  font-weight: 700;
+  text-shadow: 5px 0px 2px rgba(255, 0, 255, 0.5), -4px 0px 5px rgba(0, 255, 191, 0.5), 5px 0px 10px rgba(49, 122, 255, 1);
+}
+
+header .container hr {
+  color: #eee;
+  background-color: #eee;
+  width: 100px;
+  height: 3px;
+  margin: 15px auto;
+  opacity: 0.5;
+}
+
+header .container h2 {
+  color: #eee;
+  font-size: 30px;
+  font-weight: 300;
+  text-shadow: 2px 0px 2px rgba(255, 0, 255, 0.5), -2px 0px 2px rgba(0, 255, 191, 0.5);
+}
+
+header .container .button-right {
+  margin-left: 15px;
+}
+/* HEADER */
+
+/* SECTION 1 */
+#section1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../Image/Synthwave.85.jpg");
+  background-size: cover;
+}
+
+#section1 .container .glitch1 {
+  margin-bottom: 50px;
+}
+
+#section1 .container p {
+  margin-bottom: 200px;
+}
+
+#section1 .container .streamster {
+  color: #eee;
+  font-family: Streamster;
+  font-size: 50px;
+  font-weight: 300;
+  text-shadow: 1px 0px 10px rgba(49, 122, 255, 0.3), -2px 0px 10px rgba(231, 10, 197, 0.75), 2px 0px 10px rgba(231, 10, 197, 0.75), -4px 0px 10px rgba(255, 0, 255, 0.75), 4px 0px 10px rgba(255, 0, 255, 0.75);
+}
+
+#section1 .container .row .column1 .column1-content .glitch1 {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+/* SECTION 1 */
+
+/* SECTION 2 */
+#section2 #myVideo {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1;
+}
+#section2 .videoBg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#section2 .glitch2 {
+  font-size: 36px;
+}
+
+#section2 .container .row .column1 {
+  margin-top: 100px;
+}
+
+#section2 .container .row .column1 .column1-content {
+  margin-top: 50px;
+  display: flex;
+}
+
+#section2 .container .proLanguage {
+  margin: 60px auto 20px auto;
+}
+
+#section2 .container .row .column5 .proLangImg {
+  margin: auto 50px;
+  width: 100px;
+}
+
+#section2 .container .row .column5 .html {
+  width: 125px;
+}
+
+#section2 .container .row .column5 .css {
+  width: 125px;
+}
+
+#section2 .container .row .column5 .jq {
+  width: 180px;
+}
+
+#section2 .container .row .column5 .php {
+  width: 125px;
+}
+
+#section2 .container .row .column5 .mysql {
+  width: 150px;
+}
+
+#section2 .container .row .column5 .java {
+  width: 145px;
+}
+/* SECTION 2 */
+
+/* SECTION 3 */
+#section3 {
+  background: url("../Image/Synthwave.82.jpg") rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+#section3 .container .row .column1 {
+  margin-top: 100px;
+}
+
+#section3 .container .row .column1 .container-portImg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: linear-gradient(rgba(49, 122, 255, 0.7), rgba(255, 0, 255, 0.7));
+}
+
+#section3 .container .row .column1 .container-portImg {
+  position: relative;
+  display: inline-block;
+}
+
+#section3 .container .row .column1 .portImg {
+  width: 100%;
+}
+
+#section3 .container .row .column1 .glitch1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+#section3 .container .row .column1 a {
+  text-decoration: none;
+}
+
+#section3 .container .row .column1 .glitch1:hover {
+  color: #994fe2;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+#section3 .container .button {
+  margin-top: 100px;
+}
+/* SECTION 3 */
+
+/* FOOTER */
+footer {
+  background-color: #333;
+}
+
+footer .container {
+  text-align: left;
+}
+
+footer .container .row .column6 .glitch1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+footer .container .row .column6 .sosmed {
+  text-align: center;
+}
+
+footer .container .row .column6 .sosmed-logo {
+  width: 30px;
+  margin-right: 15px;
+}
+/* FOOTER */
